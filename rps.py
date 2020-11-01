@@ -1,6 +1,8 @@
 import random
 import time
 
+print("\n\n\n**********_____WELCOME!_____**********")
+
 def play():
     user = input("\n\nWhat is your choice?\nEnter 'r' for rock, 'p' for paper and 's' for scissors.\nPress the enter key to exit from the game.\n")
     user = user.lower()
