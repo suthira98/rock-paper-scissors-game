@@ -8,7 +8,7 @@ def play():
     computer = random.choice(['r', 'p', 's'])
 
     if user == computer:
-        #print("Ah huh?")
+        print("Ah huh?")
         return "You and the computer have both chosen \'{}\'. It is a tie.".format(computer)
 
     if won(user, computer):
@@ -28,8 +28,6 @@ def play():
         return "You have entered \'{}\' and it is not a valid input. Please enter 'r' or 'p' or 's' to play the game.".format(user)
 
 
-        '''
-'''
 def won(player, opponent):
     if (player == 'r' and opponent == 's') or (player == 'p' and opponent == 'r') or (player == 's' and opponent == 'p'):
         return True
