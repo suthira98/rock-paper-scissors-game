@@ -21,7 +21,7 @@ def play():
 
     if len(user) < 1:
         print("Closing...")
-        time.sleep(5)
+        time.sleep(2)
         exit()
 
     if (user != 'r' or 'p' or 's'):
