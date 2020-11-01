@@ -27,6 +27,7 @@ def play():
         exit()
 
     if (user != 'r' or 'p' or 's'):
+        print("Invalid input")
         return "You have entered \'{}\' and it is not a valid input. Please enter 'r' or 'p' or 's' to play the game.".format(user)
 
 
